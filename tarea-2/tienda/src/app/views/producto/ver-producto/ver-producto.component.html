@@ -1,0 +1,20 @@
+<section class="container mt-3 text-center">
+    <h4 class="fw-bold">Ver Producto</h4>
+</section>
+<div class="container my-3">
+    <div class="position-relative p-5  text-muted bg-body border border-dashed rounded-5">
+      <ol class="list-group">
+        <li class="list-group-item d-flex justify-content-between align-items-start">
+          <div class="ms-2 me-auto">
+            <div class="fw-bold">Codigo Barras:</div>            
+            {{ producto.Codigo_Barras }}
+          </div>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-start">
+          <div class="ms-2 me-auto">
+            <div class="fw-bold">Nombre Producto:</div>
+            {{ producto.Nombre_Producto }}
+          </div>
+        </li>
+      </ol>
+</div>
