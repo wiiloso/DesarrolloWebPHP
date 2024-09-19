@@ -1,0 +1,39 @@
+
+<section class="container mt-3 text-center">
+    <h4 class="fw-bold">Ver Proveedor</h4>
+</section>
+<div class="container my-3">
+    <div class="position-relative p-5  text-muted bg-body border border-dashed rounded-5">
+      <ol class="list-group">
+        <li class="list-group-item d-flex justify-content-between align-items-start">
+          <div class="ms-2 me-auto">
+            <div class="fw-bold">Nombre Empresa:</div>            
+            {{ proveedor.Nombre_Empresa }} 
+          </div>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-start">
+          <div class="ms-2 me-auto">
+            <div class="fw-bold">Dirección:</div>
+            <p>{{ proveedor.Direccion }}</p>
+          </div>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-start">
+          <div class="ms-2 me-auto">
+            <div class="fw-bold">Teléfono:</div>
+            {{ proveedor.Telefono }}
+          </div>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-start">
+          <div class="ms-2 me-auto">
+            <div class="fw-bold">Contacto Empresa:</div>
+            {{ proveedor.Contacto_Empresa }}
+          </div>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-start">
+          <div class="ms-2 me-auto">
+            <div class="fw-bold">Telefóno Empresa:</div>
+            {{ proveedor.Teleofno_Contacto }}
+          </div>
+        </li>
+      </ol>
+</div>
